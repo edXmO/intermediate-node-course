@@ -16,4 +16,4 @@ const UserSchema = new mongoose.Schema({
 
 // Now that we have a model, let's import it and connect to our database. Go to your server.js file and add these lines after all the libraries are imported.
 
-modules.exports = mongoose.model('User', UserSchema)
+module.exports = mongoose.model('User', UserSchema)
